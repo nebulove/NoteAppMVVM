@@ -39,7 +39,7 @@ fun OrderSection(
                 onSelect = { onOrderChange(NoteOrder.Color(noteOrder.orderType)) }
             )
         }
-        Spacer(modifier = Modifier.height(17.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         Row(modifier = Modifier.fillMaxWidth()) {
             DefaultRadioButton(
                 text = "Ascending",
@@ -54,5 +54,4 @@ fun OrderSection(
             )
         }
     }
-
 }
